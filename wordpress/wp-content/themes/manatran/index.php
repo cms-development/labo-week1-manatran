@@ -18,7 +18,7 @@ else :
 
 endif;
 // Sidebar
-get_sidebar();
+get_sidebar('primary-sidebar');
 
 // Footer
 get_footer();
