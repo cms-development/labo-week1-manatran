@@ -20,4 +20,5 @@ function register_sidebar_locations() {
 
 add_action( 'widgets_init', 'register_sidebar_locations' );
 add_action('wp_enqueue_scripts', 'scratch_enqueue_scripts');
+
 ?>
